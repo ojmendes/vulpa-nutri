@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/vulpa-nutri/sw.js', { scope: '/vulpa-nutri/' })})}

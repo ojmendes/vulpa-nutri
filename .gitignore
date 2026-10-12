@@ -1,0 +1,15 @@
+# Só o build estático do nutri-web. Nunca versionar:
+.env*
+*.key
+.service_key
+.db_password
+.test_user*
+.anon_key
+.limpa_segredo
+nutri-api/
+nutri-web-e2e/
+shots/
+*.png
+*.log
+node_modules/
+src/
